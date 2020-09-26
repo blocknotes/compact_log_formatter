@@ -8,12 +8,12 @@ Gem::Specification.new do |s|
   s.version       = CompactLogFormatter::VERSION
   s.authors       = ['Mattia Roccoberton']
   s.email         = ['mat@blocknot.es']
-  s.homepage      = 'https://github.com/Mattia Roccoberton/compact_log_formatter'
+  s.homepage      = 'https://github.com/blocknotes/compact_log_formatter'
   s.licenses      = ['MIT']
-  s.summary       = '[summary]'
-  s.description   = '[description]'
+  s.summary       = 'Compact Log Formatter'
+  s.description   = 'A Compact Log Formatter for Rails'
 
-  s.files         = Dir.glob('{bin/*,lib/**/*,[A-Z]*}')
+  s.files         = Dir['{app,lib}/**/*', 'LICENSE.md', 'README.md']
   s.platform      = Gem::Platform::RUBY
   s.require_paths = ['lib']
 end
