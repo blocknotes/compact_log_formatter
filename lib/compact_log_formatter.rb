@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'logger'
+
 module CompactLogFormatter
   class Formatter < Logger::Formatter
     def call(severity, datetime, _app, message)
